@@ -20,6 +20,7 @@ extra["springCloudVersion"] = "Hoxton.SR6"
 dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	implementation("org.springframework.cloud:spring-cloud-starter-bus-kafka")
 	implementation("org.springframework.cloud:spring-cloud-starter-config")
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
