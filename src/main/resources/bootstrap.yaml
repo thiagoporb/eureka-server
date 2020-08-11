@@ -4,3 +4,12 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888/
+      fail-fast: true
+    bus:
+      refresh:
+        enabled: true
+      env:
+        enabled: true
+  kafka:
+    bootstrap-servers: http://localhost:9092
+
